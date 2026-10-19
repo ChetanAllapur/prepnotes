@@ -10,7 +10,8 @@
     "preview": "npm run preview --workspace @prepnotes/web",
     "dev:web": "npm run dev --workspace @prepnotes/web",
     "test": "turbo run test",
-    "dev:mobile": "npm run start --workspace @prepnotes/mobile"
+    "dev:mobile": "npm run start --workspace @prepnotes/mobile",
+    "typecheck": "turbo run typecheck"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
